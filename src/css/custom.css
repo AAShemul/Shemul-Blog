@@ -5,143 +5,26 @@
  */
 
 /* You can override the default Infima variables here. */
-
-/* Given Color */
-/*:root
-{
-	--ifm-color-primary: #2e8555;
-	--ifm-color-primary-dark: #29784c;
-	--ifm-color-primary-darker: #277148;
-	--ifm-color-primary-darkest: #205d3b;
-	--ifm-color-primary-light: #33925d;
-	--ifm-color-primary-lighter: #359962;
-	--ifm-color-primary-lightest: #3cad6e;
-	--ifm-code-font-size: 95%;
-	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}*/
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-/*[data-theme='dark']
-{
-	--ifm-color-primary: #25c2a0;
-	--ifm-color-primary-dark: #21af90;
-	--ifm-color-primary-darker: #1fa588;
-	--ifm-color-primary-darkest: #1a8870;
-	--ifm-color-primary-light: #29d5b0;
-	--ifm-color-primary-lighter: #32d8b4;
-	--ifm-color-primary-lightest: #4fddbf;
-	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}*/
-
-:root
-{
-	--ifm-color-primary: #009635;
-	--ifm-color-primary-dark: #008730;
-	--ifm-color-primary-darker: #00802d;
-	--ifm-color-primary-darkest: #006925;
-	--ifm-color-primary-light: #00a53a;
-	--ifm-color-primary-lighter: #00ad3d;
-	--ifm-color-primary-lightest: #00c345;
-}
-
-[data-theme='dark']
-{
-	--ifm-color-primary: #2e8555;
-	--ifm-color-primary-dark: #29784c;
-	--ifm-color-primary-darker: #277148;
-	--ifm-color-primary-darkest: #205d3b;
-	--ifm-color-primary-light: #33925d;
-	--ifm-color-primary-lighter: #359962;
-	--ifm-color-primary-lightest: #3cad6e;
-	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
-
-.hero
-{
-	background-image: url('/img/Background.webp') !important;
-	background-size: cover !important;
-}
-
-img.shemul
-{
-	height: 200px;
-	width: 200px;
-	border: 5px solid #FFFFFF;
-	border-radius: 50%;
-	margin: 0 auto 30px auto;
-	display: block;
-}
-
-ol.bengali
-{
-	list-style-type: bengali;
-}
-
-.center
-{
-	text-align: center;
-	align-content: center;
-	align-items: center;
-	alignment: center;
-	child-align: middle;
-	vertical-align: middle;
-	text-align-all: center;
-	position: center;
-}
-
-.c-r
-{
-	margin: auto;
-}
-
-.w-f
-{
-	width: 100%;
-}
-
-.p-t
-{
-	padding-top: 15px;
-}
-
-.p-b
-{
-	padding-bottom: 15px;
-}
-
-.m-t
-{
-	margin-top: 15px;
-}
-
-.m-b
-{
-	margin-bottom: 15px;
-}
-
-.search-container
-{
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 20px;
-}
-
-.search
-{
-	background: #FFFFFF;
-	border: 1px solid #666666;
-	padding: 10px;
-}
-
-.search-box
-{
-	width: auto;
-	border: 0;
-}
-
-.search-button
-{
-	padding: var(--ifm-navbar-item-padding-vertical) var(--ifm-navbar-item-padding-horizontal);
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
