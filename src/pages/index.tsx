@@ -1,14 +1,21 @@
-import React from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import Head from '@docusaurus/Head';
-import styles from './index.module.css';
+import React, { JSX } from 'react'
+import clsx from 'clsx'
+import Link from '@docusaurus/Link'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
+import Layout from '@theme/Layout'
+import Head from '@docusaurus/Head'
+import styles from './index.module.css'
 
 
-function HomepageHeader() {
-    const { siteConfig } = useDocusaurusContext();
+/**
+ * Homepage Header component.
+ * This is the main header section of the homepage.
+ *
+ * @returns { JSX.Element } The JSX element for the homepage header.
+ * @since 1.0.0
+ */
+function HomepageHeader(): JSX.Element {
+    const { siteConfig } = useDocusaurusContext()
     return (
         <header className={ clsx('hero hero--primary', styles.heroBanner) }>
             <div className="container">
@@ -22,24 +29,48 @@ function HomepageHeader() {
                 </div>
             </div>
         </header>
-    );
+    )
 }
 
-function Gap() {
+
+/**
+ * Gap component.
+ * This is a component to create a gap between two elements.
+ *
+ * @returns { JSX.Element } The JSX element for the gap.
+ * @since 1.0.0
+ */
+function Gap(): JSX.Element {
     return (
         <div><br/><br/><br/></div>
-    );
+    )
 }
 
-function BlogListHome() {
+
+/**
+ * Blog List Home component.
+ * This is the main blog list section of the homepage.
+ *
+ * @returns { JSX.Element } The JSX element for the blog list home.
+ * @since 1.0.0
+ */
+function BlogListHome(): JSX.Element {
     return (
         <div className="blog-list-home">
             <div className="container">
                 <div className="row">
-                    <div className="c-r"><h2 className="hero__title" id="get-started">Get Started</h2></div>
+                    <div className="c-r">
+                        <h2 className="hero__title" id="get-started">
+                            Get Started
+                        </h2>
+                    </div>
                 </div>
                 <div className="row">
-                    <div className="c-r"><h3 className="hero__subtitle">Read the latest articles!</h3></div>
+                    <div className="c-r">
+                        <h3 className="hero__subtitle">
+                            Read the latest articles!
+                        </h3>
+                    </div>
                 </div>
                 <div className="row">
                     <div className="col col--4 m-t m-b">
@@ -189,13 +220,22 @@ function BlogListHome() {
                 </div>
             </div>
         </div>
-    );
+    )
 }
 
 // ${siteConfig.title} can be used to get the title of the website
 
-export default function Home() {
-    const { siteConfig } = useDocusaurusContext();
+
+/**
+ * Home component.
+ * This is the main component of the homepage.
+ *
+ * @returns { JSX.Element } The JSX element for the homepage.
+ * @since 1.0.0
+ */
+export default function Home(): JSX.Element {
+    const { siteConfig } = useDocusaurusContext()
+
     return (
         <Layout
             title="Hello from Md. Ashraful Alam Shemul"
@@ -220,8 +260,10 @@ export default function Home() {
                 <meta property="og:site_name" content="Shemul's Blog"/>
                 <meta property="og:type" content="website"/>
                 <meta property="og:title" content="Hello from Md. Ashraful Alam Shemul | Shemul's Blog"/>
-                <meta property="og:description"
-                      content="Shemul's Blog is a content sharing website of Md. Ashraful Alam Shemul. Md. Ashraful Alam Shemul is a Bangladeshi Author, teacher and tech-enthusiastic. He is studying Marine Fisheies in Bangabandhu Sheikh Mujibur Rahman Maritime University."/>
+                <meta
+                    property="og:description"
+                    content="Shemul's Blog is a content sharing website of Md. Ashraful Alam Shemul. Md. Ashraful Alam Shemul is a Bangladeshi Author, teacher and tech-enthusiastic. He is studying Marine Fisheies in Bangabandhu Sheikh Mujibur Rahman Maritime University."
+                />
                 <meta property="og:url" content="https://blog.shemul.gq"/>
                 <meta property="og:image" content="https://blog.shemul.gq/img/Homepage.webp"/>
                 <meta property="og:image:secure_url" content="https://blog.shemul.gq/img/Homepage.webp"/>
@@ -237,8 +279,10 @@ export default function Home() {
                 <meta name="twitter:site" content="@AAShemul"/>
                 <meta name="twitter:domain" content="blog.shemul.gq"/>
                 <meta name="twitter:title" content="Hello from Md. Ashraful Alam Shemul | Shemul's Blog"/>
-                <meta name="twitter:description"
-                      content="Shemul's Blog is a content sharing website of Md. Ashraful Alam Shemul. Md. Ashraful Alam Shemul is a Bangladeshi Author, teacher and tech-enthusiastic. He is studying Marine Fisheies in Bangabandhu Sheikh Mujibur Rahman Maritime University."/>
+                <meta
+                    name="twitter:description"
+                    content="Shemul's Blog is a content sharing website of Md. Ashraful Alam Shemul. Md. Ashraful Alam Shemul is a Bangladeshi Author, teacher and tech-enthusiastic. He is studying Marine Fisheies in Bangabandhu Sheikh Mujibur Rahman Maritime University."
+                />
                 <meta name="twitter:creator" content="@AAShemul"/>
                 <meta name="twitter:image" content="https://blog.shemul.gq/img/Homepage.webp"/>
             </Head>
@@ -249,5 +293,5 @@ export default function Home() {
                 <Gap/>
             </main>
         </Layout>
-    );
+    )
 }
