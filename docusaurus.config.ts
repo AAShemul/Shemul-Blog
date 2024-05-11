@@ -29,6 +29,99 @@ const config: Config = {
 		locales: [ 'en' ],
 	},
 
+	headTags: [
+		{
+			tagName: 'link',
+			attributes: {
+				rel: 'apple-touch-icon',
+				sizes: '57x57',
+				href: '/icon/apple-icon-57x57.png',
+			},
+		},
+		{
+			tagName: 'link',
+			attributes: {
+				rel: 'apple-touch-icon',
+				sizes: '60x60',
+				href: '/icon/apple-icon-60x60.png',
+			},
+		},
+		{
+			tagName: 'link',
+			attributes: {
+				rel: 'apple-touch-icon',
+				sizes: '72x72',
+				href: '/icon/apple-icon-72x72.png',
+			},
+		},
+		{
+			tagName: 'link',
+			attributes: {
+				rel: 'apple-touch-icon',
+				sizes: '76x76',
+				href: '/icon/apple-icon-76x76.png',
+			},
+		},
+		{
+			tagName: 'link',
+			attributes: {
+				rel: 'apple-touch-icon',
+				sizes: '114x114',
+				href: '/icon/apple-icon-114x114.png',
+			},
+		},
+		{
+			tagName: 'link',
+			attributes: {
+				rel: 'apple-touch-icon',
+				sizes: '120x120',
+				href: '/icon/apple-icon-120x120.png',
+			},
+		},
+		{
+			tagName: 'link',
+			attributes: {
+				rel: 'apple-touch-icon',
+				sizes: '144x144',
+				href: '/icon/apple-icon-144x144.png',
+			},
+		},
+		{
+			tagName: 'link',
+			attributes: {
+				rel: 'apple-touch-icon',
+				sizes: '152x152',
+				href: '/icon/apple-icon-152x152.png',
+			},
+		},
+		{
+			tagName: 'link',
+			attributes: {
+				rel: 'apple-touch-icon',
+				sizes: '180x180',
+				href: '/icon/apple-icon-180x180.png',
+			},
+		},
+		{
+			tagName: 'link',
+			attributes: {
+				rel: 'icon',
+				type: 'image/png',
+				sizes: '192x192',
+				href: '/icon/android-icon-192x192.png',
+			},
+		},
+		{
+			tagName: 'link',
+			attributes: {
+				rel: 'icon',
+				type: 'image/png',
+				sizes: '32x32',
+				href: '/icon/favicon-32x32.png',
+			},
+		},
+	],
+
 	presets: [
 		[
 			'classic',
@@ -61,7 +154,7 @@ const config: Config = {
 			items:
 				[
 					{
-						href: 'https://www.shemul.gq/',
+						href: 'https://www.shemul.com.bd/',
 						label: 'About Shemul',
 						position: 'left'
 					},
@@ -179,23 +272,23 @@ const config: Config = {
 							[
 								{
 									label: 'About Shemul',
-									href: 'https://www.shemul.gq',
+									href: 'https://www.shemul.com.bd',
 								},
 								{
 									label: 'শিমুলের পরিচিতি',
-									href: 'https://www.shemul.gq/bn',
+									href: 'https://www.shemul.com.bd/bn',
 								},
 								{
 									label: 'Photo Gallery',
-									href: 'https://www.shemul.gq/#gallery',
+									href: 'https://www.shemul.com.bd/#gallery',
 								},
 								{
 									label: 'Shemul Studios',
-									href: 'https://studios.shemul.gq',
+									href: 'https://studios.shemul.com.bd',
 								},
 								{
 									label: 'Shemul\'s Classroom',
-									href: 'https://classroom.shemul.gq',
+									href: 'https://classroom.shemul.com.bd',
 								},
 							],
 					},
